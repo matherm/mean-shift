@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import roc_auc_score
 import matplotlib.pyplot as plt
 from hugeica import *
-from hugeica.helpers.patch_utils import *
+from .helpers.patch_utils import *
 
 def preprocess(X, X_in, X_out, norm_contrast=True, DC=True, channels=None):
     X_, _ = dequantize(X) 

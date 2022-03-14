@@ -19,7 +19,7 @@ def read_version(fname):
         raise RuntimeError("Unable to find version string in %s." % (VERSIONFILE,))
     return verstr
 
-__version__ = read_version("hugeica/__version__.py")
+__version__ = read_version("meanshift/__version__.py")
 
 setup(
       name = 'meanshift',
