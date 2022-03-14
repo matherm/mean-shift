@@ -1,2 +1,5 @@
-# Mean Shift
+# μShift
 
+PyTorch implementation of μShift. 
+
+![](./teaser.png)
