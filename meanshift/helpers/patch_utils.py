@@ -6,7 +6,7 @@ from torch.nn import functional as F
 from skimage.transform import resize
 from sklearn.cluster import KMeans
 from sklearn.metrics import roc_auc_score
-from hugeica.helpers.kcenter_greedy import *
+from .kcenter_greedy import *
 
 
 def tiles_to_fmap(S_fmap):

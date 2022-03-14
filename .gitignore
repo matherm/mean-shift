@@ -4,3 +4,5 @@
 **/.eggs/**
 **/build/**
 **/dist/**
+**/MNIST/**
+**/meanshift.egg-info/**
